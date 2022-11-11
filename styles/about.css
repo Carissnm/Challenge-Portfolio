@@ -1,0 +1,29 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about h2 {
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.contenido_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto_about img {
+    width: 220px;
+    border-radius: 50%;
+}
+
+.texto_about {
+    padding: 0.5em;
+    text-align: center;
+}

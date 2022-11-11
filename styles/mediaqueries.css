@@ -1,0 +1,69 @@
+@media screen and (min-width: 540px) and (max-width: 600px) {
+	.titulo-presentacion {
+		font-size: 3.5em;
+	}
+
+	.texto-presentacion {
+		font-size: 2.3em;
+	}
+
+	.texto_about {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+	.titulo-presentacion {
+		font-size: 3.5em;
+	}
+
+	.texto-presentacion {
+		font-size: 2.3em;
+	}
+
+
+	.contenido_about {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.texto_about {
+		width: 50%;
+		margin-left: 1em;
+		font-size: 0.95em;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+
+	header {
+		align-items: flex-start;
+        justify-content: space-between;
+	}
+	.presentacion {
+		padding: 5rem;
+	}
+	.nombreapellido span {
+		font-size: 3.6em;
+	}
+	.titulo-presentacion {
+		font-size: 3.5rem;
+	}
+
+	.titulo-presentacion span {
+		font-size: 3.7rem;
+	}
+	.texto-presentacion {
+		font-size: 3em;
+	}
+
+	/* .contenido_about {
+		flex-direction: row;
+		justify-content: space-evenly;
+	} */
+
+	.texto_about {
+		width: 60%;
+		font-size: 1.1em;
+	}
+}
